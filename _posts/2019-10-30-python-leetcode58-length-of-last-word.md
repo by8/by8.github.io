@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Leetcode面试题
+categories: Leetcode面试题
 title:  LeetCode面试系列 第8天：No.58 - 最后一个单词的长度
 tagline: by 萌较瘦
 tags: 

@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Leetcode面试题
+categories: Leetcode面试题
 title:  LeetCode面试系列 第4天：No.202 - 快乐数
 tagline: by 萌较瘦
 tags: 

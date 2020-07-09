@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Leetcode面试题
+categories: Leetcode面试题
 title:  LeetCode面试系列 第6天：No.9 - 回文数
 tagline: by 萌较瘦
 tags: 

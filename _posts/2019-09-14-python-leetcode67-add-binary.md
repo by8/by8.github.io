@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Leetcode面试题
+categories: Leetcode面试题
 title:  LeetCode面试系列 第3天：No.67 - 二进制数求和
 tagline: by 萌较瘦
 tags: 

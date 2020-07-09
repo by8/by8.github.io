@@ -2,7 +2,7 @@
 layout: post
 title:  LeetCode面试系列 第2天：No.136 - 只出现一次的数
 tagline: by 萌较瘦
-category: Leetcode面试题
+categories: Leetcode面试题
 copyright: python
 excerpt: Leetcode面试题系列
 ---

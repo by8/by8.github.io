@@ -2,7 +2,7 @@
 layout: post
 title:  Leetcode面试系列 第1天：No.89 - 格雷码
 tagline: by 萌较瘦
-category: leetcode
+categories: leetcode
 tags: [leetcode, python]
 copyright: python
 excerpt: Leetcode面试题系列

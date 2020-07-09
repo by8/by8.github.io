@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Leetcode面试题
+categories: Leetcode面试题
 title:  LeetCode面试系列 第7天：No.13 - 罗马数字转整数
 tagline: by 萌较瘦
 tags: 

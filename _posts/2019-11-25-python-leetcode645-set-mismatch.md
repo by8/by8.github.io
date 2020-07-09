@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Leetcode面试题
+categories: Leetcode面试题
 title:  LeetCode面试系列 第11天：No.645 - 错误的集合
 tagline: by 萌较瘦
 tags: 
