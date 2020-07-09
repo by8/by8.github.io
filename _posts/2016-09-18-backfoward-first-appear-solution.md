@@ -2,8 +2,7 @@
 title: 华为oj之提取不重复的整数
 date: 2016-09-18 12:56:52
 tags: [oj]
-categories:
-- 编程训练
+categories: 编程训练
 ---
 
 ### 题目: 提取不重复的整数

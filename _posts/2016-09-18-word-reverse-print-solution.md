@@ -2,8 +2,7 @@
 title: 华为oj之【中级】单词倒排
 date: 2016-09-18 20:15:26
 tags: [oj]
-categories:
-- 编程训练
+categories: 编程训练
 ---
 
 ### 题目: 【中级】单词倒排

@@ -2,8 +2,7 @@
 title: 携程校招2017编程题之股票最大利润
 date: 2016-09-17 21:58:36
 tags: [oj] 
-categories:
-- 编程训练
+categories: 编程训练
 ---
 
  ![携程校招2017编程题1](http://geekplayers.com/assets/images/2016/ctrip_ex1.png)  <!-- 本地: ![携程校招2017编程题1](../images/ctrip_ex1.png) -->

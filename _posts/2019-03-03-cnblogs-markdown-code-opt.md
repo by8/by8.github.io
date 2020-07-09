@@ -2,8 +2,7 @@
 title: 改进博客园Markdown显示功能(加代码行号、显示代码所用编程语言)
 date: 2019-03-03 11:33:32
 tags: [博客园, markdown]
-categories:
-- 博客园美化
+categories: 博客园美化
 excerpt: 博客园的markdown模式下的代码高亮功能和行号~
 ---
 

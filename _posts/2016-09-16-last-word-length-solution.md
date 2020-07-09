@@ -2,8 +2,7 @@
 title: 华为oj之字符串最后一个单词的长度
 date: 2016-09-16 15:07:25
 tags: [oj]
-categories:
-- 编程训练
+categories: 编程训练
 ---
 
 ### 题目: 字符串最后一个单词的长度

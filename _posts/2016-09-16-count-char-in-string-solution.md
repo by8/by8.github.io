@@ -5,8 +5,7 @@ date: 2016-09-16 22:31:09
 
 tags:
  [oj]
-categories: 
-- 编程训练
+categories: 编程训练
 ---
 
 

@@ -2,8 +2,7 @@
 layout: post
 title: 深入浅出XAML
 
-categories: 
-- [life, xaml, wpf]
+categories: wpf
 
 tags: [wpf]
 excerpt: 深入浅出XAML - 转载自《程序员杂志》

@@ -2,8 +2,7 @@
 title: 华为oj之(整型)数字颠倒
 date: 2016-09-18 10:43:12
 tags: [oj]
-categories: 
-- 编程训练
+categories: 编程训练
 ---
 
 ### 题目: 数字颠倒
