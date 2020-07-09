@@ -1,6 +1,5 @@
 ---
 title: 华为oj之字符串分割
-date: 2016-09-18 16:39:32
 tags: [oj]
 categories: 编程训练
 ---

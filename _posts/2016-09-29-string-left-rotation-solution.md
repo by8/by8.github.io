@@ -1,6 +1,5 @@
 ---
 title: 剑指offer面试题42(b)之左旋转字符串
-date: 2016-09-29 00:31:13
 tags: [剑指offer, oj]
 categories: 编程训练
 ---

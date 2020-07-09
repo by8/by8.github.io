@@ -1,6 +1,5 @@
 ---
 title: 华为oj之最小公倍数
-date: 2016-09-17 15:19:26
 tags: [oj]
 categories: 编程训练
 ---

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: 史上最最靠谱，又双叒叒(ruò,zhuó)简单的基于MSXML的XML解析指南-C++
-date: 2019-01-10 18:05:20
-
 categories: xml
 
 tags: [xml, msxml, C++]

@@ -1,6 +1,5 @@
 ﻿---
 title: 华为oj之等差数列前n项和
-date: 2016-09-17 15:35:11
 tags: [oj]
 categories: 编程训练
 ---

@@ -1,6 +1,5 @@
 ---
 title: 剑指offer面试题42(a)之翻转单词顺序列
-date: 2016-09-28 23:48:56
 tags: [剑指offer, oj]
 categories: 编程训练
 ---

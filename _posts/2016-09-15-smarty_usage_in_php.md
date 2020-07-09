@@ -1,6 +1,5 @@
 ---
 title: PHP中Smarty引擎的常用语法
-date: 2016-09-15 15:07:22
 tags: PHP
 ---
 

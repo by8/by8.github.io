@@ -1,10 +1,6 @@
 ---
 title: 华为oj之计算字符个数
-
-date: 2016-09-16 22:31:09
-
-tags:
- [oj]
+tags: [oj]
 categories: 编程训练
 ---
 

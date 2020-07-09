@@ -1,6 +1,5 @@
 ---
 title: 华为oj之句子逆序
-date: 2016-09-18 09:47:26
 tags: [oj]
 categories: 编程训练
 ---
