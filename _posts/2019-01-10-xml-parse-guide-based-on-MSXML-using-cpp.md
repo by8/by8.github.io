@@ -357,7 +357,7 @@ int main()
 
 运行完，得到的update.xml内容为:
 
-<https://raw.githubusercontent.com/yanglr/SimpleParser4MSXML-cpp/master/msxmlDemo/updated.xml>
+<https://cdn.jsdelivr.net/gh/yanglr/SimpleParser4MSXML-cpp/msxmlDemo/updated.xml>
 
 <br>
 
