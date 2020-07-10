@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Leetcode面试系列 第1天：No.89 - 格雷码
+date: 2019-09-09 19:33:43
 tagline: by 萌较瘦
 categories: leetcode
 tags: [leetcode, python]
