@@ -1,19 +1,52 @@
 - name: Software Engineer Keywords
   keywords:
-      - Java
-      - C++
+      - C#
+      - PHP
+      - C++      
       - Python
-      - Design Patterns
+      - Scrum敏捷开发
+      - 设计模式
 
 - name: Mobile Developer Keywords
   keywords:
-      - Android
-      - Reverse Engineering
+      - Xamarin
 
 - name: Windows Developer Keywords
   keywords:
+      - WPF
+      - Win Forms
+      - WCF
+      - C++/CLI
+      - Visual Stuido
       - Win32 SDK
-      - DuiLib
-      - WTL
       - COM
-      - WinDbg
+
+- name: Linux Developer Keywords
+  keywords:
+      - Linux
+      - Ubuntu
+      - .NET core
+
+- name: Web Developer Keywords
+  keywords:
+      - ASP.NET
+      - JavaScript
+      - jQuery
+      - PHP
+
+- name: Database Keywords
+  keywords:
+      - MySql
+      - MongoDB
+      - Oracle
+
+- name: Machine Learning Keywords
+  keywords:
+      - TensorFlow
+      - ML.NET
+      - TensorFlow.NET
+
+- name: Clould Development Keywords
+  keywords:
+      - docker
+      - k8s
