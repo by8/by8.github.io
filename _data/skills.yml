@@ -7,10 +7,6 @@
       - Scrum敏捷开发
       - 设计模式
 
-- name: Mobile Developer Keywords
-  keywords:
-      - Xamarin
-
 - name: Windows Developer Keywords
   keywords:
       - WPF
@@ -40,7 +36,7 @@
       - MongoDB
       - Oracle
 
-- name: Machine Learning Keywords
+- name: Machine Learning & Data Analysis Keywords
   keywords:
       - TensorFlow
       - ML.NET
@@ -50,3 +46,7 @@
   keywords:
       - docker
       - k8s
+
+- name: Mobile Developer Keywords
+  keywords:
+      - Xamarin      
