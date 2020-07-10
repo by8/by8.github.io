@@ -1,27 +1,47 @@
 - sitename: GitHub
-  name: mzlogin
-  url: https://github.com/mzlogin
-
-- sitename: 掘金
-  name: mzlogin
-  url: http://gold.xitu.io/user/570ddaeb2e958a005c63b2da
-
-- sitename: LinkedIn
-  name: mazhuang
-  url: https://www.linkedin.com/in/mazhuang
-
-- sitename: 博客
-  name: 码志
-  url: http://mazhuang.org
-
-- sitename: 微博
-  name: mzlogin
-  url: http://weibo.com/mzlogin
+  name: yanglr
+  url: https://github.com/yanglr
 
 - sitename: 知乎
-  name: mzlogin
-  url: http://www.zhihu.com/people/mzlogin
+  name: Bravo Yeung(近4万关注者)
+  url: http://www.zhihu.com/people/legege007
 
-- sitename: 豆瓣
-  name: 壮哥不胖
-  url: http://www.douban.com/people/freedim
+- sitename: CSDN
+  name: 大白技术控
+  url: https://blog.csdn.net/lzuacm
+
+- sitename: 博客园
+  name: 大白技术控
+  url: https://enjoy233.cnblogs.com
+
+- sitename: 简书
+  name: 大白技术控
+  url: https://www.jianshu.com/u/273b8036c361
+
+- sitename: StackOverflow
+  name: Bravo Yeung
+  url:  https://stackoverflow.com/users/6075331/bravo-young
+
+# - sitename: LinkedIn
+#   name: Bruce Yang
+#   url:   
+
+# - sitename: 掘金
+#   name: legege007
+#   url: 
+
+# - sitename: LinkedIn
+#   name: Bruce Yang
+#   url: 
+
+- sitename: 个人博客
+  name: 大白技术控Bravo Yeung
+  url: https://www.geekplayers.com
+
+- sitename: 微博
+  name: 大白技术控
+  url: https://weibo.com/546671991
+
+# - sitename: 豆瓣
+#   name: 萌大白BY
+#   url: 
