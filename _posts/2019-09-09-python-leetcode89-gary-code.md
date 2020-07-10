@@ -6,7 +6,7 @@ tagline: by 萌较瘦
 categories: leetcode
 tags: [leetcode, python]
 copyright: python
-excerpt: Leetcode面试题系列
+excerpt: Leetcode面试题No.89 - 格雷码
 ---
 
 最近，打算花点时间写个 Python 解决 Leetcode 题的系列文章~
