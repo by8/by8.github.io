@@ -122,14 +122,15 @@ gitment:
     owner: yanglr
     repo: blog-comments
     oauth:
-        client_id: 22eb6462c987e7a79860  # owner: yanglr
-        client_secret: 6cd15fa90d4e2f73fa16eaab9b3f783831fe3f3d
+        client_id: d6e97a19029a9fb1fbba
+        client_secret: bc6195bc6d2ec5254712fa69960612c2c59f2ebb
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: yanglr
     repo: blog-comments
-    clientID: 22eb6462c987e7a79860  # owner: yanglr
-    clientSecret: 6cd15fa90d4e2f73fa16eaab9b3f783831fe3f3d
+    clientID: d6e97a19029a9fb1fbba  # owner: by8
+    clientSecret: bc6195bc6d2ec5254712fa69960612c2c59f2ebb
+
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : true
 
