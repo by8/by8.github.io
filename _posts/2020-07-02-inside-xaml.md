@@ -1,9 +1,8 @@
 ---
 layout: post
 title: 深入浅出XAML
-
+date: 2020-07-02 20:04:07
 categories: wpf
-
 tags: [wpf]
 excerpt: 深入浅出XAML - 转载自《程序员杂志》
 ---
