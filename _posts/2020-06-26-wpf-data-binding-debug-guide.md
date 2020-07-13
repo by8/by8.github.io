@@ -4,8 +4,7 @@ category: wpf
 date: 2020-06-26 22:14:09
 title:  WPF中的Data Binding调试指南
 tagline: by 萌较瘦
-tags: 
-  - LeetCode面试题系列
+tags: wpf
 excerpt: WPF中的Data Binding调试方法和工具汇总
 keywords: wpf, xaml
 topmost: true
