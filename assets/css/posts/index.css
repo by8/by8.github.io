@@ -123,7 +123,3 @@
     background-color: #777;
     border-radius: 10px;
 }
-
-ol > li > h3 > a:hover {
-    text-decoration: none !important;
-}
