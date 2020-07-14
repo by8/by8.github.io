@@ -743,6 +743,10 @@ img + em {
     font-size: 40px !important;
 }
 
+.post-list-title a {
+    text-decoration: none !important;
+}
+
 /*  超链接下划线动画特效  */
 h3 {
     color: #666;
