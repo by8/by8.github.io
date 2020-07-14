@@ -743,7 +743,11 @@ img + em {
     font-size: 40px !important;
 }
 
-.post-list-title a {
+ol > li > h3 > a:hover {
+    text-decoration: none !important;
+}
+
+a:hover {
     text-decoration: none !important;
 }
 
