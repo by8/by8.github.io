@@ -742,3 +742,21 @@ img + em {
 #sub-title {
     font-size: 40px !important;
 }
+
+/*  超链接下划线动画特效  */
+h3 {
+    color: #666;
+    display: inline-block;
+    margin: 0;
+    /* text-transform:uppercase;  */
+}
+
+h3:after {
+    border-bottom: solid 3px #019fb6;
+    content: '';
+    display: block;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+h3:hover:after { transform: scaleX(1); }
