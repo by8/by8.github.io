@@ -125,3 +125,7 @@
 .repo-list-meta .meta-info a:hover {
     text-decoration: underline
 }
+
+ol > li > h3 > a:hover {
+    text-decoration: none !important;
+}

@@ -743,14 +743,6 @@ img + em {
     font-size: 45px !important;
 }
 
-ol > li > h3 > a:hover {
-    text-decoration: none !important;
-}
-
-a:hover {
-    text-decoration: none !important;
-}
-
 /*  超链接下划线动画特效  */
 h3 {
     color: #666;
