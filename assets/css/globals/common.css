@@ -738,3 +738,7 @@ div.footnotes::before {
 img + em {
   color: grey;
 }
+
+#sub-title {
+    font-size: 40px !important;
+}
