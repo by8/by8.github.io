@@ -6,7 +6,7 @@ title:  WPF中的Data Binding调试指南
 tagline: by 萌较瘦
 tags: wpf
 excerpt: WPF中的Data Binding调试方法和工具汇总
-keywords: wpf, xaml
+keywords: ".NET", wpf, xaml
 topmost: true
 ---
 
@@ -22,7 +22,7 @@ topmost: true
 
 具体做法是，在目录`HKEY_CURRENT_USER\Software\Microsoft`中创建文件夹`Tracing`, 然后在其里面创建子文件夹`WPF`，然后新建一个DWORD(32位)值ManagedTracing，将其值设置为`1`.
 
-![1592713525851](https://img2020.cnblogs.com/blog/436938/202006/436938-20200622211722737-223248462.png)
+![大白技术控geekplayers](/images/blog/wpf-debug1.png)
 
 
 
@@ -39,7 +39,7 @@ Windows Registry Editor Version 5.00
 
 接下来，需要在你的Project的能影响 `.exe.config`生成的那个 `.config`文件下加入`折叠区域`的内容:
 
-![1592713910975](https://img2020.cnblogs.com/blog/436938/202006/436938-20200622211742335-1216348071.png)
+![大白技术控geekplayers](/images/blog/wpf-debug2.png)
 
 
 
@@ -138,7 +138,7 @@ Windows Registry Editor Version 5.00
 
 设置好后，你build这个wpf项目后，当启动Debug时，在其相应的debug目录下会多出一个 `BindingTrace.log`文件，比如, 我这边的内容上这样的：
 
-![1592714137479](https://img2020.cnblogs.com/blog/436938/202006/436938-20200622211806966-573081494.png)
+![大白技术控geekplayers](/images/blog/wpf-debug3.png)
 
 
 
@@ -188,7 +188,7 @@ Windows Registry Editor Version 5.00
 
 那么，此时在其相应的debug目录下会多出一个 `BindingTrace.xml`文件，我这边的内容上这样的：
 
-![1592714724096](https://img2020.cnblogs.com/blog/436938/202006/436938-20200622211827860-1249127857.png)
+![大白技术控geekplayers](/images/blog/wpf-debug4.png)
 
 
 **参考:**
@@ -250,7 +250,7 @@ https://github.com/bstollnitz/old-wpf-blog/tree/master/45-DebuggingDataBinding
 
 此时，在Output(输出窗口)就可以看到数据绑定的相关信息了。
 
-![1592715540437-大白技术控](https://img2020.cnblogs.com/blog/436938/202006/436938-20200622212018825-207346561.png)
+![大白技术控geekplayers](/images/blog/wpf-debug5.png)
 
 
 可能有人会好奇output中的红色字体是怎么来的，vs的output默认是黑色。
@@ -263,7 +263,7 @@ https://marketplace.visualstudio.com/items?itemName=MikeWard-AnnArbor.VSColorOut
 
 当然，你还可以在此时启用"诊断工具"，位置是： 调试 -> 窗口 -> 显示诊断工具，配合起来用起来更爽喔~
 
-![1592715463451](https://img2020.cnblogs.com/blog/436938/202006/436938-20200622212036944-2084457056.png)
+![大白技术控geekplayers](/images/blog/wpf-debug6.png)
 
 
 
@@ -286,20 +286,20 @@ https://github.com/spadapet/xaml-binding-tool
 
 当安装好这个插件时，重启VS就可以用了，debug时，调试窗口中会多一个选项"XAML binding failures (experimental)"。点击该选项，debug相关窗口中会显示`Data binding`的详细信息。
 
-![1592716073429-大白技术控](https://img2020.cnblogs.com/blog/436938/202006/436938-20200622212103487-76591930.png)
+![大白技术控geekplayers](/images/blog/wpf-debug7.png)
 
 
 
 此时，`WPF trace level`附近的`...`还可以点击进行设置。
 
-![1592715986388-大白技术控](https://img2020.cnblogs.com/blog/436938/202006/436938-20200622212133147-1611807256.png)
+![大白技术控geekplayers](/images/blog/wpf-debug8.png)
 
 
 ## 方法4: 使用第三方debug工具 WPF 
 
 首推Snoop，这个工具大概2006年就出来了，历史悠久，最初由微软Blend团队的Pete Blois开发，功能也异常强大，而且目前也一直有人维护和更新。
 
-![1592826132129](https://img2020.cnblogs.com/blog/436938/202006/436938-20200622212159774-872461026.png)
+![大白技术控geekplayers](/images/blog/wpf-debug9.png)
 
 左上角支持filter，属性或层级很多时，可以快速定位目标节点。
 
@@ -314,7 +314,7 @@ Snoop允许您查看您在应用程序中指定的事件列表。当您单击元
 在Snoop的左上角，有一个下拉框可以打开，然后选择"Show only Visuals with binding Errors"以查看应用程序所具有的可视数据绑定错误列表。
 
 
-![img](https://img2020.cnblogs.com/blog/436938/202006/436938-20200622212422552-1568346355.png)
+![大白技术控geekplayers](/images/blog/wpf-debug10.png)
 
 
 Snoop 的一个众所周知的功能是能够识别数据绑定问题。当看到组件是否绑定正确时，我通常只是尝试一下，看看它是否有效。如果无效，我转向 Visual Studio 调试模式下的output窗口。如果无法立即看到该值，我会这样做：将 Snoop 附加(Attach)到我的应用，并从应用程序树视图上方的搜索/筛选器栏中选择"Show only visuals with binding errors"选项。
@@ -336,14 +336,14 @@ Refresh按钮, Snoop按钮(望远镜)，借助filter找需要inspect的目标元
 
 还可以使用它来显示任何具有绑定错误(Binding error)的控件（就像word中的拼写检查一样）：
 
-![大白技术控-snoop绑定](https://img2020.cnblogs.com/blog/436938/202006/436938-20200622212454405-1878408131.png)
+![大白技术控-snoop绑定](/images/blog/wpf-debug11.png)
 
 Snoop 中的绑定错误会**红色**高亮显示
 
 
 
 也有小伙伴在用或WPF Inspector，不过这个工具好久没更新了。
-![WPF inspect-大白技术控](https://img2020.cnblogs.com/blog/436938/202006/436938-20200622212936042-1246466607.png)
+![WPF inspect-大白技术控](/images/blog/wpf-debug12.png)
 
 WPF Inspector 这个项目之前是在CodePlex上的，后来没人维护了，目前有人手动fork到github上，但没见任何更新。
 
@@ -361,7 +361,7 @@ Mole for VS 2017 is installed from the [Visual Studio Marketplace](https://marke
 
 Mole for VS 2019 is installed from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=KarlShifflettkdawg.MoleforVisualStudio2019).
 
-![mole](https://img2020.cnblogs.com/blog/436938/202006/436938-20200622212615305-44471257.png)
+![mole](/images/blog/wpf-debug13.png)
 
 
 ## 其他方法:
