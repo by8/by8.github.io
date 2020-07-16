@@ -10,7 +10,7 @@ excerpt: LeetCode面试No.9 - 回文数
 
 上一篇面试题中，我们使用了 **埃拉托斯特尼筛法** 去统计给定范围内质数的个数(LeetCode No.204)，还是有点烧脑的。今天我们来分析一道相对轻松的字符串面试题吧，恰好大家从Python 100天中学到的字符串知识可以派上用场。
 
-![Leetcode](http://www.justdopython.com/assets/images/2019/python/LeetCode.png)
+![大白技术控Geekplayers](/images/blog/LeetCode.png)
 
 今天要给大家分析的面试题是 LeetCode 上第 **9** 号问题，
 

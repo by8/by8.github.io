@@ -10,7 +10,7 @@ excerpt: LeetCode面试No.202 - 快乐数
 
 或许你不知道的是，Leetcode 中是有很多 *数学题* 的，本文要解析的题 **快乐数** 就是其中到一个典型问题，本题将基于数据结构 `set` 来求解。
 
-![Leetcode](http://www.justdopython.com/assets/images/2019/python/LeetCode.png)
+![大白技术控Geekplayers](/images/blog/LeetCode.png)
 
 今天要给大家分析的面试题是 LeetCode 上第 **202** 号问题，
 

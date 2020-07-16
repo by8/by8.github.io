@@ -10,7 +10,7 @@ excerpt: LeetCode面试 No.67 - 二进制数求和
 
 大家都知道 LeetCode 中的第一道题是 Two Sum，比较简单。我们今天决定挑一个与之类似，但难度稍大于之的问题 **二进制之和** 来分析，其中涉及到的主要知识是 Python 中的 **进制转换**，比如后面的解题方法中我们先将二进制转换为十进制，最后又将十进制转换回二进制。
 
-![Leetcode](http://www.justdopython.com/assets/images/2019/python/LeetCode.png)
+![大白技术控Geekplayers](/images/blog/LeetCode.png)
 
 今天要给大家分析的面试题是 LeetCode 上第 **67** 号问题，
 
