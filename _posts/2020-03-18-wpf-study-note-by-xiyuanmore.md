@@ -178,7 +178,7 @@ excerpt: WPF学习笔记（一） - 转载自邹溪源的博客园博客
 
 
 
-```
+```xml
 <LinearGradientBrush>
   <LinearGradientBrush.GradientStops>
     <!-- no explicit new GradientStopCollection, parser knows how to find or create -->
@@ -546,7 +546,7 @@ WPF中的控件可以通过模板 Template 的形式来定义其内容，使得�
 
 
 
-```
+```xml
 <Grid
 <Button Grid.Column="0" Grid.Row="1" Style="{StaticResource FlatButtonStyle}" HorizontalAlignment="Center" VerticalAlignment="Top" Width="48" Height="16" FontSize="10" Background="#4696F2" Content="获取"></Button>
  </Grid>
@@ -702,7 +702,7 @@ void Onb2Click2(object sender, RoutedEventArgs e)
 -   隧道：最初将调用元素树的根处的事件处理程序。 随后，路由事件将朝着路由事件的源节点元素（即引发路由事件的元素）方向，沿路由线路传播到后续的子元素。
 -   WPF中约定，隧道路由事件的名称以单词"Preview"开头。 输入事件通常成对出现，一个是浮升事件，另一个是隧道事件。例如，如下图所示，假设按钮2为触发事件的源。
 
-![图片](//cdn.jsdelivr.net/farway000/image.techq.xyz/images/how-to-learn-wpf/event.png)
+![大白技术控-event](/images/blog/wpf-event.png)
 
 1、处理Border根元素的隧道事件PreviewMouseDown
 
