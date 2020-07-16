@@ -193,15 +193,15 @@ Windows Registry Editor Version 5.00
 
 **参考:**
 
-https://systemscenter.ru/scsm_authoringtool.en/html/b24efd85-0ced-48ea-8ecc-d816c789bae2.htm
+<https://systemscenter.ru/scsm_authoringtool.en/html/b24efd85-0ced-48ea-8ecc-d816c789bae2.htm>
 
-https://www.cnblogs.com/furenjun/archive/2011/08/01/2123983.html
+<https://www.cnblogs.com/furenjun/archive/2011/08/01/2123983.html>
 
 WPF Tutorial | Debug DataBinding Issues
-https://www.wpftutorial.net/DebugDataBinding.html
+<https://www.wpftutorial.net/DebugDataBinding.html>
 
 old-wpf-blog/45-DebuggingDataBinding at master · bstollnitz/old-wpf-blog
-https://github.com/bstollnitz/old-wpf-blog/tree/master/45-DebuggingDataBinding
+<https://github.com/bstollnitz/old-wpf-blog/tree/master/45-DebuggingDataBinding>
 
 
 ## 方法2: 在XAML中设置TraceLevel + 在xaml中需要debug的View对应的 `.xaml.cs`文件中启用WPF Trace
@@ -211,7 +211,7 @@ https://github.com/bstollnitz/old-wpf-blog/tree/master/45-DebuggingDataBinding
 
 首先需要给该View的xaml文件的某个节点加入` PresentationTraceSources.TraceLevel="High"`,
 
-```xaml
+```xml
 <UserControl x:Class="CaliburnMicro_Calculator.Views.CalculatorView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -226,7 +226,7 @@ https://github.com/bstollnitz/old-wpf-blog/tree/master/45-DebuggingDataBinding
 我这边直接在这个view的根节点`<UserControl>`中加入` PresentationTraceSources.TraceLevel="High"`，结果如下:
 
 
-```xaml
+```xml
 <UserControl x:Class="CaliburnMicro_Calculator.Views.CalculatorView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -257,7 +257,7 @@ https://github.com/bstollnitz/old-wpf-blog/tree/master/45-DebuggingDataBinding
 
 其实安装一个vs插件`VSColorOutput`就好了，传送门: 
 
-https://marketplace.visualstudio.com/items?itemName=MikeWard-AnnArbor.VSColorOutput.
+<https://marketplace.visualstudio.com/items?itemName=MikeWard-AnnArbor.VSColorOutput>.
 
 
 
@@ -280,7 +280,7 @@ XAML binding extension for Visual Studio 2019 下载地址:
 相关代码已开源: 
 
 spadapet/xaml-binding-tool: XAML binding error window in a Visual Studio 2019 extension
-https://github.com/spadapet/xaml-binding-tool
+<https://github.com/spadapet/xaml-binding-tool>
 
 
 
