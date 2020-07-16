@@ -12,7 +12,7 @@ excerpt: LeetCode面试No.345 - 反转字符串中的元音字母
 
 <!--more-->
 
-![Leetcode](//cdn.jsdelivr.net/justdopython/justdopython.github.io/assets/images/2019/python/LeetCode.png)
+![Leetcode](/images/blog/LeetCode.png)
 
 今天要给大家分析的面试题是 LeetCode 上第 **345** 号问题，
 
