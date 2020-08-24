@@ -6,8 +6,8 @@ url: https://www.geekplayers.com
 # date_format: "ordinal"
 title:  极客玩家Bravo Yeung-大白技术控
 subtitle: "大白爱技术，爱生活"
-description: "本站是极客玩家Bravo Yeung的技术分享博客。内容涵盖 .NET开发, PHP开发, 算法面试题等等~"
-keywords: geekplayer, geekplayers, 极客玩家, .NET, "C#", .NET Core, PHP, RSS, k8s, 生活故事, 一线, 开发者, 编程, 代码, 开源, IT网站,Developer, Programmer, Coder, Geek, IT技术博客, .NET, Python
+description: "极客玩家Bravo Yeung的技术分享博客。内容涵盖Python, PHP, Leetcode面试题，.NET等等~"
+keywords: Python, 大白, VR, LeetCode, .NET, WPF, 技术控, "C#", .NET Core, PHP, geekplayer, geekplayers, 极客玩家, RSS, k8s, 生活故事, 一线, 开发者, 编程, 代码, 开源, IT网站,Developer, Programmer, Coder, Geek, IT技术博客
 timezone: Asia/Shanghai +08:00
 encoding: "utf-8"
 side_bar_repo_limit: 5
