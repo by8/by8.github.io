@@ -115,7 +115,7 @@ git clone https://gitlab.com/legege007/legege007.gitlab.io.git
 
 具体做法是，在本地克隆下来的代码仓库的根目录中创建文件 `.gitlab.ci.yml`, 然后贴入如下代码:
 
-```
+```yaml
 image: ruby:latest
 
 variables:
