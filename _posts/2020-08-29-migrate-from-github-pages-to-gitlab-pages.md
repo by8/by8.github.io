@@ -18,7 +18,7 @@ topmost: true
 
 <br/>
 
-## Step1: 
+## Step1: 导入已有项目
 
 登陆[gitlab.com](https://gitlab.com)，点击`New Project`, 
 
