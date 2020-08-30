@@ -147,12 +147,9 @@ pages:
   - master
 ```
 
-来源: <https://gitlab.com/pages/hexo/-/blob/master/.gitlab-ci.yml>
+来源: <https://gitlab.com/pages/jekyll/-/blob/master/.gitlab-ci.yml>
 
-
-
-同理，如果是hexo, 请参考项目<https://gitlab.com/pages/hexo> 下的文件<https://gitlab.com/pages/hexo/-/blob/master/.gitlab-ci.yml>，gitbook 项目请用 <https://gitlab.com/pages/gitbook/-/blob/master/.gitlab-ci.yml>。
-
+同理，如果你的静态博客选用的框架是hexo, 请参考项目<https://gitlab.com/pages/hexo> 下的CI/CD配置文件<https://gitlab.com/pages/hexo/-/blob/master/.gitlab-ci.yml>，gitbook 项目请用 <https://gitlab.com/pages/gitbook/-/blob/master/.gitlab-ci.yml>。
 
 
 如果想对gitlab CI/CD有更多的了解，请参看:
