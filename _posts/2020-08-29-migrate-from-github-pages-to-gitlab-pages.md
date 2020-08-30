@@ -2,10 +2,12 @@
 layout: post
 title: 在GitLab pages上快速搭建Jekyll博客
 date: 2020-08-29 18:23:52
-categories: [gitlab pages, github pages]
+categories: [gitlab pages, github pages, jekyll]
 tags: [gitlab, github]
 excerpt: 从github pages快速迁移Jekyll博客到gitlab pages的完全指南。
 description: 从github pages快速迁移Jekyll博客到gitlab pages的完全指南。 - 大白技术控
+keywords: gitlab pages, github pages, jekyll
+topmost: true
 ---
 
 ## 在GitLab pages上快速搭建Jekyll博客
