@@ -77,6 +77,10 @@ navs:
     href: /about/
     label: 关于
 
+  -
+    href: /sitemap.xml
+    label: 站点地图
+
 # ---------------- #
 #       RSS        #
 # ---------------- #
