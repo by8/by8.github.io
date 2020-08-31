@@ -17,14 +17,12 @@ cdn:
     jsdelivr:
         enabled: true
 
-# 分享        
-share_component:
-    enabled: true
-
 # 组件配置
 components:
+    # 分享
     share:
-        enabled: false    
+        enabled: true
+    
     # 不蒜子访问统计
     bubusuanzi:
         enabled: true
