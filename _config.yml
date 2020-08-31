@@ -16,13 +16,18 @@ repository: by8/by8.github.io
 cdn:
     jsdelivr:
         enabled: true
+
+# 分享        
+share_component:
+    enabled: true
+
 # 组件配置
 components:
-    # 分享
-    share:
-        enabled: true
+    # share:
+    #     enabled: false
+    
     # 不蒜子访问统计
-    busuanzi:
+    bubusuanzi:
         enabled: true
         start_date: 2020-07-09
 # 压缩页面内容
