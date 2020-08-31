@@ -23,9 +23,8 @@ share_component:
 
 # 组件配置
 components:
-    # share:
-    #     enabled: false
-    
+    share:
+        enabled: false    
     # 不蒜子访问统计
     bubusuanzi:
         enabled: true
