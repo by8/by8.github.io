@@ -22,9 +22,8 @@ components:
     # 分享
     share:
         enabled: true
-    
     # 不蒜子访问统计
-    bubusuanzi:
+    busuanzi:
         enabled: true
         start_date: 2020-07-09
 # 压缩页面内容
@@ -148,6 +147,9 @@ simple_jekyll_search:
     fulltext: false
     # 最多显示多少条搜索结果
     limit: 10
+
+exclude:
+- [vendor]
 
 # ---------------- #
 #      Google      #
