@@ -20,7 +20,7 @@ cdn:
 components:
     # 分享
     share:
-        enabled: false
+        enabled: true
     # 不蒜子访问统计
     busuanzi:
         enabled: true
@@ -136,7 +136,7 @@ gitalk:
     clientSecret: bc6195bc6d2ec5254712fa69960612c2c59f2ebb
 
 # 在使用其它评论组件时可点击显示 Disqus
-lazy_load_disqus : true
+lazy_load_disqus : false
 
 # ---------------- #
 #      Search      #
