@@ -82,7 +82,7 @@ Windows Registry Editor Version 5.00
 Scancode Map 这个键值的讲解实例参见 [Keyboard and mouse class drivers (Windows Drivers)](https://msdn.microsoft.com/en-us/library/windows/hardware/jj128267(v=vs.85).aspx#code-snippet-1)，我们这里填写的值
 
 ```
-00000000 00000000 88800000 1d003a00 00000000
+00000000 00000000 02000000 1d003a00 00000000
 ```
 
 可以对应理解如下：

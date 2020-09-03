@@ -77,7 +77,7 @@ github地址: https://github.com/dotnet/corefx
 
 Microsoft Cognitive Toolkit（CNTK），一个开源的深度学习工具包
 
-![cntk](https://img2018.cnblogs.com/blog/436938/201903/436938-20190338883509579-77233727.png)
+![cntk](https://img2018.cnblogs.com/blog/436938/201903/436938-20190330203509579-77233727.png)
 
 github地址:  [Microsoft/CNTK](https://github.com/Microsoft/CNTK)
 

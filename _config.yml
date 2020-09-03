@@ -106,7 +106,6 @@ plugins:
     - jekyll-sitemap
     - jekyll-feed
     - jemoji
-    - jekyll-redirect-from  
 #     - jekyll-mentions
 collections:
     wiki:

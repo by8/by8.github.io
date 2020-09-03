@@ -1,6 +1,6 @@
 ---
 title: WPF学习笔记（一） - by 邹溪源
-date: 2888-03-18 21:26:20
+date: 2020-03-18 21:26:20
 no-post-nav: false
 category: wpf
 
@@ -268,7 +268,7 @@ WPF中的控件可以通过模板 Template 的形式来定义其内容，使得�
 
 在上述事例中，共定义了两个按钮的样式，分别是:
 
--   **FlatButtonStyle，这是个圆角按钮。**![](https://img2888.cnblogs.com/blog/191302/288803/191302-28880318212756317-118994661.png)
+-   **FlatButtonStyle，这是个圆角按钮。**![](https://img2020.cnblogs.com/blog/191302/202003/191302-20200318212756317-118994661.png)
 
 
 
@@ -296,7 +296,7 @@ WPF中的控件可以通过模板 Template 的形式来定义其内容，使得�
 
 ```
 
--   **ToggleLikeButtonStyle，这是一个点赞按钮。** ![](https://img2888.cnblogs.com/blog/191302/288803/191302-28880318212810837-524413026.png)
+-   **ToggleLikeButtonStyle，这是一个点赞按钮。** ![](https://img2020.cnblogs.com/blog/191302/202003/191302-20200318212810837-524413026.png)
 
 
 
@@ -573,7 +573,7 @@ WPF中的控件可以通过模板 Template 的形式来定义其内容，使得�
 
 作者给出了使用自定义控件的分析思路：
 
-![](https://img2888.cnblogs.com/blog/191302/288803/191302-28880318212827625-1658133466.png)
+![](https://img2020.cnblogs.com/blog/191302/202003/191302-20200318212827625-1658133466.png)
 
 例如，在示例代码**ToggleLikeButtonStyle **中，我实现了一个点赞和取消点赞的状态，则使用了ToggleButton来完成，就没必要使用 Button 扩展出一个是否点赞的状态了。
 
@@ -675,7 +675,7 @@ DependencyProperty.Register("ButtonType", typeof(ButtonType), typeof(ButtonEx), 
 
 ```
 
-实现了这样的界面![](https://img2888.cnblogs.com/blog/191302/288803/191302-28880318212853603-773449582.png)
+实现了这样的界面![](https://img2020.cnblogs.com/blog/191302/202003/191302-20200318212853603-773449582.png)
 
 路由事件就是针对这组元素树中多个元素调用处理程序的事件。当我们点击了按钮Button时，将会触发 Button=>StackPanel=>Border的事件路由，而不是像WinForm应用一样，只能触发最上层的Button的按钮点击事件。
 

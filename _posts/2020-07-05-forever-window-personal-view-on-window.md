@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 永远的窗口(个人对窗口的拙见)
-date: 2888-07-05 11:06:50
+date: 2020-07-05 11:06:50
 
 category: windows
 
@@ -235,7 +235,7 @@ static void Main()
 
 #define WS_CLIPSIBLINGS       0x04000000L
 
-#define WS_CLIPCHILDREN      0x88800000L
+#define WS_CLIPCHILDREN      0x02000000L
 
 #define WS_MAXIMIZE         0x01000000L
 
