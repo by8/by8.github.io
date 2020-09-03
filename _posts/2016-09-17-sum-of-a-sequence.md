@@ -1,4 +1,6 @@
-﻿---
+---
+redirect_from:
+  - /2016/09/17/sum-of-a-sequence/
 title: 华为oj之等差数列前n项和
 date: 2016-09-17 15:35:11
 tags: [oj]

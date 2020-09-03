@@ -2,6 +2,8 @@
 layout: post
 category: wpf
 date: 2020-06-26 22:14:09
+redirect_from:
+  - /2020/06/26/wpf-data-binding-debug-guide/
 title:  WPF中的Data Binding调试指南
 tagline: by 萌较瘦
 categories: [.NET, wpf, xaml]

@@ -1,5 +1,7 @@
 ---
 layout: post
+redirect_from:
+  - /2020/08/28/china-seo-experts-and-famous/
 title: 国内SEO英雄榜，你知道几个？
 date: 2020-08-28
 category: seo

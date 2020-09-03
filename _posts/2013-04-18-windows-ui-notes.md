@@ -1,5 +1,7 @@
 ---
 layout: post
+redirect_from:
+  - /2013/04/18/windows-ui-notes/
 title: Windows 界面相关小知识点
 categories: Windows
 description: Win32 编程中与界面相关的一些小的知识点总结。

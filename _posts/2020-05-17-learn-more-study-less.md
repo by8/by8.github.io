@@ -1,5 +1,7 @@
 ---
 layout: post
+redirect_from:
+  - /2020/05/17/learn-more-study-less/
 title: 更聪明地学习，而不是苦读——《如何高效学习》
 categories: Blog
 description: 《如何高效学习》的吐槽与读书笔记。

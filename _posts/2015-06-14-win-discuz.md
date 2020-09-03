@@ -1,5 +1,7 @@
 ---
 layout: post
+redirect_from:
+  - /2015/06/14/win-discuz/
 title: Win7 下部署 Discuz!
 categories: PHP
 description: 在 Win7 下部署 Discuz! 的详细步骤。

@@ -1,5 +1,7 @@
 ---
 layout: post
+redirect_from:
+  - /2020/07/02/inside-xaml/
 title: 深入浅出XAML
 date: 2020-07-02 20:04:07
 categories: wpf

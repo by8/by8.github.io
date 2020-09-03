@@ -1,5 +1,7 @@
 ---
 layout: post
+redirect_from:
+  - /2020/08/29/migrate-from-github-pages-to-gitlab-pages/
 title: 在GitLab pages上快速搭建Jekyll博客
 date: 2020-08-29 18:23:52
 categories: [gitlab pages, github pages, jekyll]

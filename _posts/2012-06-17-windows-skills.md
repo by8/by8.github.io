@@ -1,5 +1,7 @@
 ---
 layout: post
+redirect_from:
+  - /2012/06/17/windows-skills/
 title: Windows 实用技巧汇总
 categories: Windows
 description: 平时使用 Windows 时总结的一些实用的小技巧。

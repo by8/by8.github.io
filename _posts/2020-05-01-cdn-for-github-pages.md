@@ -1,5 +1,7 @@
 ---
 layout: post
+redirect_from:
+  - /2020/05/01/cdn-for-github-pages/
 title: 使用 jsDelivr 免费加速 GitHub Pages 博客的静态资源
 categories: GitHub
 description: 使用 jsdelivr CDN 加速 GitHub Pages 博客的静态资源。

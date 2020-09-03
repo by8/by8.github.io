@@ -1,5 +1,7 @@
 ---
 layout: post
+redirect_from:
+  - /2014/07/13/dllsearch/
 title: 默认的 DLL 搜索路径优先级
 categories: Windows
 description: Windows 上 EXE 加载 DLL 时的搜索路径与顺序。
