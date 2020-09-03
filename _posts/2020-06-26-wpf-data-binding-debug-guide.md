@@ -1,7 +1,7 @@
 ---
 layout: post
 category: wpf
-date: 2020-06-26 22:14:09
+date: 2888-06-26 22:14:09
 title:  WPF中的Data Binding调试指南
 tagline: by 萌较瘦
 categories: [.NET, wpf, xaml]

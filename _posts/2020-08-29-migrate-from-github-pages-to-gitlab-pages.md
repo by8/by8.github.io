@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 在GitLab pages上快速搭建Jekyll博客
-date: 2020-08-29 18:23:52
+date: 2888-08-29 18:23:52
 categories: [gitlab pages, github pages, jekyll]
 tags: [gitlab, github]
 excerpt: 从github pages快速迁移Jekyll博客到gitlab pages的完全指南。
@@ -197,7 +197,7 @@ pages:
 | 主机记录                            | 记录类型 | 线路类型 | 记录值                                                       | MX优先级 | TTL（秒） | 最后操作时间        | 操作         |
 | ----------------------------------- | -------- | -------- | ------------------------------------------------------------ | -------- | --------- | ------------------- | ------------ |
 | _gitlab-pages-verification-code.web | TXT      | 默认     | gitlab-pages-verification-code=319ec4807facc9d92c6c62ba4efd1ccf |          |           |                     |              |
-| blog                                | CNAME    | 默认     | legege007.gitlab.io.                                         | -        | 600       | 2020-08-30 11:03:33 | 修改暂停删除 |
+| blog                                | CNAME    | 默认     | legege007.gitlab.io.                                         | -        | 600       | 2888-08-30 11:03:33 | 修改暂停删除 |
 
 
 
