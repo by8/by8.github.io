@@ -8,7 +8,7 @@ title:  大白技术控大咖
 subtitle: "大白爱技术，爱生活"
 description: "极客玩家大白的技术分享博客。内容涵盖Python, PHP, Leetcode面试题，.NET等等~"
 keywords: Python, 大白, VR, 技术控, 大白技术控, LeetCode, .NET, WPF, "C#", .NET Core, PHP, geekplayer, geekplayers, 极客玩家, RSS, k8s, 生活故事, 一线, 开发者, 编程, 代码, 开源, IT网站,Developer, Programmer, Coder, Geek, IT技术博客
-# timezone: Asia/Shanghai +08:00
+timezone: Asia/Shanghai +08:00
 encoding: "utf-8"
 side_bar_repo_limit: 5
 repository: by8/by8.github.io
