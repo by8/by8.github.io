@@ -21,6 +21,70 @@
     <link rel="stylesheet" href="{{ assets_base_url }}/assets/vendor/octicons/octicons/octicons.css">
     <link rel="stylesheet" href="{{ assets_base_url }}/assets/css/prism.css">
 
+    <style>
+          .profile__heading-dot--red {
+            background-color: #FF5F57 !important;
+        }
+
+        .profile__heading-dot {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #eee;
+            margin-right: 8px;
+        }
+
+        .profile__heading-dot--yellow {
+            background-color: #FFBD2E !important;
+            ;
+        }
+
+        .profile__heading-dot {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #eee;
+            margin-right: 8px;
+        }
+
+        .profile__heading-dot--green {
+            background-color: #28CA42 !important;
+            ;
+        }
+
+        .profile__heading-dot {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #eee;
+            margin-right: 8px;
+        }
+
+        .profile__heading--desc-body {
+            background-color: #EEEEEE;
+            width: 100%;
+            font-size: 13px;
+            color: #666666;
+            overflow: auto;
+            padding: 20px;
+            font-family: "Source Code Pro", Consolas, Menlo, Monaco, "Courier New", monospace;
+        }
+
+        .profile__heading--desc-heading {
+            background-color: #E3E3E3;
+            padding: 0 12px;
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
+        }
+
+        .profile__heading--desc-heading {
+            padding: 10px 12px !important;
+        }
+    </style>
+
     {% assign highlight_base_url = 'https://www.geekplayers.com/rouge-themes/dist' %}
     {% if site.cdn.jsdelivr.enabled %}
     {% assign highlight_base_url = 'https://cdn.jsdelivr.net/gh/mzlogin/rouge-themes@master/dist' %}
