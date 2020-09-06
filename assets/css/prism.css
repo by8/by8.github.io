@@ -166,3 +166,11 @@ pre[class*="language-"].line-numbers>code {
     padding-right: 0.8em;
     text-align: right;
 }
+
+/* style for `` block */
+code.highlighter-rouge.language-plaintext {
+    color: darkblue !important;
+    background-color: #F7F7F9 !important;
+    border: 1px solid #E1E1E8 !important;
+    padding: 2px 4px !important;
+}
