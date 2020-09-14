@@ -126,14 +126,14 @@ disqus:
 # https://imsun.net/posts/gitment-introduction/
 gitment:
     owner: yanglr
-    repo: blog-comments
+    repo: geekplayers.com
     oauth:
         client_id: d6e97a19029a9fb1fbba
         client_secret: bc6195bc6d2ec5254712fa69960612c2c59f2ebb
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: yanglr
-    repo: blog-comments
+    repo: geekplayers.com
     clientID: d6e97a19029a9fb1fbba  # owner: by8
     clientSecret: bc6195bc6d2ec5254712fa69960612c2c59f2ebb
 
