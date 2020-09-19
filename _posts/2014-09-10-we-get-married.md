@@ -36,4 +36,4 @@ tags: [Marry]
 
 我们的婚纱照：[http://storamy.lofter.com/](http://storamy.lofter.com/)
 
-<img src="/image/get_married.jpg" />
+<img src="/images/get_married.jpg" />

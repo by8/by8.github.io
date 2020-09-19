@@ -23,7 +23,7 @@ icon: file-alt
 ## 3. 什么是 GitHub
 确切的说 GitHub 是一家公司，位于旧金山，由 Chris Wanstrath, PJ Hyett 与 Tom Preston-Werner 三位开发者在2008年4月创办。这是它的 Logo：
 
-![图片描述](/image/Octocat.png)
+![图片描述](/images/Octocat.png)
 
 2008年4月10日，GitHub正式成立，地址：How people build software · GitHub ，主要提供基于git的版本托管服务。一经上线，它的发展速度惊为天人，截止目前，GitHub 已经发展成全球最大的开（同）源（性）社区。
 
@@ -62,15 +62,15 @@ Git 是一款免费、开源的分布式版本控制系统，他是著名的 Lin
 
 - Linux 发明者 Linus Torvalds：[https://github.com/torvalds](https://github.com/torvalds)
 
-![图片描述](/image/linus.png)
+![图片描述](/images/linus.png)
 
 - Rails 创始人 DHH：[https://github.com/dhh](https://github.com/dhh)
 
-![图片描述](/image/dhh.png)
+![图片描述](/images/dhh.png)
 
 - 被称为「Android之神」的 JakeWharton：[https://github.com/JakeWharton](https://github.com/JakeWharton) ， 你们用的很多开源库如 ButterKnife、OkHttp、 Retrofit、 Picasso、ViewPagerIndicator 等都是出自他之手！
 
-![图片描述](/image/jake.png)
+![图片描述](/images/jake.png)
 
 其他就不一一列举了，GitHub 上活跃的很多是 Google 、Square、阿里等公司的员工，有些甚至还是Google Android Team组的，所以在这里你可以接触到全球顶级编程大牛！
 
@@ -100,7 +100,7 @@ Git 是一款免费、开源的分布式版本控制系统，他是著名的 Lin
 
 当然 GitHub 能做的还远不止这些，我见过很多在 GitHub 搞的一些有意思的项目，有找男朋友的，甚至还有利用 GitHub 的 commit 丧心病狂的秀恩爱的，没错，那个丧心病狂的人就是我，如果你前段日子关注了我的 GitHub ，那么能看到这么一个壮观的景象：
 
-![图片描述](/image/stormzhang.jpg)
+![图片描述](/images/stormzhang.jpg)
 
 ## 7. 加入 GitHub
 读完我的文章，我相信你已经蠢蠢欲动了，从现在开始，立刻、马上去注册个 GitHub 「[https://github.com/](https://github.com/)」，去体验一番，不会用不要紧，接下来我会有一系列详细的文章，来教你学会使用 GitHub ！
@@ -111,4 +111,4 @@ Git 是一款免费、开源的分布式版本控制系统，他是著名的 Lin
 
 > 本文原创发布于微信公众号 **AndroidDeveloper「googdev」**，转载请务必注明出处！
 
-![图片描述](/image/weixinpublic_200.png)
+![图片描述](/images/weixinpublic_200.png)

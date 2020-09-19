@@ -10,7 +10,7 @@ tags: [Activity]
 
 关于Activity的生命周期网上也有很多文章，最经典的莫过于官方的一张图解了。
 
-<img src="/image/activity_lifecycle.png" />
+<img src="/images/activity_lifecycle.png" />
 
 这张图列出了Activity生命周期最主要的一些方法，启动后依次执行：
 

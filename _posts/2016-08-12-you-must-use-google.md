@@ -43,12 +43,12 @@ title: "你为什么一定要使用 Google ？"
 百度的结果：
 
 
-![图片描述](/image/baidu_android.png)
+![图片描述](/images/baidu_android.png)
 
 Google 的结果：
 
 
-![图片描述](/image/google_android.png)
+![图片描述](/images/google_android.png)
 
 看到没有，百度搜索的结果第一屏几乎全他妈是广告，而且比较隐蔽，这结果你告诉我你是一个搜索引擎？我们都是成年人，并不排斥你打广告，毕竟一家商业公司总要赚钱的。但是你这广告提示的能不能再隐蔽些？而且数量多的太令人发指了，现在还只是出过各种事情收敛之后的结果，可想而知没出事之前的搜索结果得有多恐怖。
 
@@ -62,12 +62,12 @@ Google 的结果：
 
 百度的结果：
 
-![图片描述](/image/baidu_ios.png)
+![图片描述](/images/baidu_ios.png)
 
 Google 的结果：
 
 
-![图片描述](/image/google_ios.png)
+![图片描述](/images/google_ios.png)
 
 看到没有，百度同样的第一屏全是广告，恨不得第一页的结果全部打上广告，再看 Google 返回的结果，都是 GitHub、知乎、慕课网等非常有用的回答与教程。其他关键字，你们不妨自己亲自尝试比较下搜索结果。
 
@@ -108,7 +108,7 @@ Google 的结果：
 
 > 本文原创发布于微信公众号 **AndroidDeveloper「googdev」**，转载请务必注明出处！
 
-![图片描述](/image/weixinpublic.jpg)
+![图片描述](/images/weixinpublic.jpg)
 
 
 

@@ -12,5 +12,5 @@ tags: [Lifecycle]
 
 提供PDF下载：[complete_android_fragment_lifecycle.pdf](http://pan.baidu.com/s/1dD5XEA9)
 
-<img src="/image/complete_android_fragment_lifecycle.png" />
+<img src="/images/complete_android_fragment_lifecycle.png" />
 

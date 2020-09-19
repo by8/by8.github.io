@@ -13,7 +13,7 @@ group: archive
 
 另外先打个广告，以后博客更新准备第一时间更新在我的微信公众号: **AndroidDeveloper** 上，方便大家第一时间通知到大家，大家可以扫码关注下。
 
-<img src="/image/weixinpublic.jpg" />
+<img src="/images/weixinpublic.jpg" />
 
 ## 背景
 
@@ -26,11 +26,11 @@ group: archive
 
 **4.4版本**
 
-<img src="/image/nexus5_api19.png"/>
+<img src="/images/nexus5_api19.png"/>
 
 **5.0版本**
 
-<img src="/image/nexus5_api21.png"/>
+<img src="/images/nexus5_api21.png"/>
 
 **而4.4之前版本顶部的状态栏默认是黑色的，这里就不截图了，看微信Android版就知道了**
 

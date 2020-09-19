@@ -20,13 +20,13 @@ tags: [Gradle]
 
 我们以我在GitHub开源的项目9GAG为例，首先我们在项目的根目录创建一个gradle配置文件config.gradle，内容如下：
 
-<img src="/image/gradle_config1.png" />
+<img src="/images/gradle_config1.png" />
 
 可以看到这里包含了一些android和依赖的基本配置，以上都是gradle支持的语法，也许这里包含了所有你觉得好用的库，但是项目中只用到3、4个库也没关系，有了这个配置文件，以后所有的buildToolsVersion的升级还是依赖库的版本升级都在这里统一进行配置管理，所有的module以及主项目都从这里统一读取就ok了，那么接下来项目中怎么依赖这里的配置文件呢？
 
 其次看下项目根目录的build.gradle文件内容：
 
-<img src="/image/gradle_config2.png" />
+<img src="/images/gradle_config2.png" />
 
 只需在最顶部加上上面一行代码，意思就是所有的子项目或者所有的modules都可以从这个配置文件里读取内容。
 
@@ -34,11 +34,11 @@ tags: [Gradle]
 
 android节点下的读取：
 
-<img src="/image/gradle_config3.png" />
+<img src="/images/gradle_config3.png" />
 
 denpendencies节点下的读取：
 
-<img src="/image/gradle_config4.png" />
+<img src="/images/gradle_config4.png" />
 
 是不是很简单方便呢？以后所有的版本号或者配置的更改直接更改这个文件就好了，而且可以把所有项目中使用到或者可能使用到的第三方库都塞到这里管理，用到了就依赖，用不到就放里面就好了。
 

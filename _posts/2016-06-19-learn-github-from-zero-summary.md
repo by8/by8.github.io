@@ -24,4 +24,4 @@ tags: [GitHub]
 
 > 关注我的微信公众号 **AndroidDeveloper「googdev」**，第一时间获取文章更新以及更多原创干货分享！
 
-![图片描述](/image/weixinpublic_200.png)
+![图片描述](/images/weixinpublic_200.png)

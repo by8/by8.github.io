@@ -21,7 +21,7 @@ tags: [GitHub]
 
 Linux 与 Mac 都是默认安装了 SSH ，而 Windows 系统安装了 Git Bash 应该也是带了 SSH 的。大家可以在终端（win下在 Git Bash 里）输入 ssh 如果出现以下提示证明你本机已经安装 SSH， 否则请搜索自行安装下。
 
-![](/image/ssh.png)
+![](/images/ssh.png)
 
 紧接着输入 **ssh-keygen -t rsa** ，什么意思呢？就是指定 rsa 算法生成密钥，接着连续三个回车键（不需要输入密码），然后就会生成两个文件 id_rsa 和 id_rsa.pub ，而 id_rsa 是密钥，id_rsa.pub 就是公钥。这两文件默认分别在如下目录里生成：
 
@@ -33,11 +33,11 @@ Linux/Mac 系统 在 **~/.ssh** 下，win系统在 **/c/Documents and Settings/u
 
 第一步先在 GitHub 上的设置页面，点击最左侧 SSH and GPG keys ：
 
-![](/image/github_sshkey.png)
+![](/images/github_sshkey.png)
 
 然后点击右上角的 New SSH key 按钮：
 
-![](/image/github_ssh2.png)
+![](/images/github_ssh2.png)
 
 需要做的只是在 Key 那栏把 id_rsa.pub 公钥文件里的内容复制粘贴进去就可以了（上述示例为了安全粘贴的公钥是无效的），Title 那栏不需要填写，点击 Add SSH key 按钮就ok了。
 
@@ -52,7 +52,7 @@ Windows用户，设置显示隐藏文件，可以使用 EditPlus 或者 Sublime 
 
 SSH key 添加成功之后，输入 **ssh -T git@github.com** 进行测试，如果出现以下提示证明添加成功了。
 
-![](/image/ssh_test.png)
+![](/images/ssh_test.png)
 
 ## 4. Push & Pull
 
@@ -87,7 +87,7 @@ Clone自己的项目
 
 至于怎么获取项目的仓库地址呢？如下图：
 
-![](/image/test_clone.png)
+![](/images/test_clone.png)
 
 关联本地已有项目
 如果我们本地已经有一个完整的 git 仓库，并且已经进行了很多次 commit ，这个时候第一种方法就不适合了。
@@ -138,5 +138,5 @@ PS：以前你们生日的时候都在我文章底下评论求祝福，我给你
 
 > 本文原创发布于微信公众号 **AndroidDeveloper「googdev」**，转载请务必注明出处！
 
-![图片描述](/image/weixinpublic.jpg)
+![图片描述](/images/weixinpublic.jpg)
 
