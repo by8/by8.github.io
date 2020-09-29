@@ -1,3 +1,52 @@
+<style>
+    .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #f8f9fa;
+    border-radius: .25rem
+}
+
+.breadcrumb-item {
+    display: flex
+}
+
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: .5rem
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    color: #6c757d;
+    content: "/"
+}
+
+.breadcrumb-item+.breadcrumb-item:hover::before {
+    text-decoration: underline
+}
+
+.breadcrumb-item+.breadcrumb-item:hover::before {
+    text-decoration: none
+}
+
+.breadcrumb-item.active {
+    color: #6c757d
+}
+
+ol,ul,dl {
+    margin-top: 0;
+    margin-bottom: 1rem
+}
+
+ol ol,ul ul,ol ul,ul ol {
+    margin-bottom: 0
+}
+
+</style>
+
 <div class="breadcrumbs">
     <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="list-/inline breadcrumb">
 
