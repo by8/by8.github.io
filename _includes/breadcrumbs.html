@@ -40,6 +40,47 @@
         color: #6c757d
     }
 
+    .border-secondary {
+        border-color: #6c757d !important;
+    }
+
+    .border {
+        border: 1px solid #dee2e6 !important;
+    }
+
+    .breadcrumb {
+        display: flex;
+        flex-wrap: wrap;
+        padding: .75rem 1rem;
+        margin-bottom: 1rem;
+        list-style: none;
+        background-color: #f8f9fa;
+        border-radius: .25rem;
+    }
+
+    ol,
+    ul,
+    dl {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    ol {
+        display: block;
+        list-style-type: decimal;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+    }
+
     ol,
     ul,
     dl {
@@ -56,19 +97,19 @@
 </style>
 
 <nav aria-label="breadcrumb">
-<div class="breadcrumbs">
-    <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="list-/inline breadcrumb">
+    <div class="breadcrumbs">
+        <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="list-/inline breadcrumb">
 
-        {% assign categories = include.path | split:"/" | pop  %}
-        {% assign route="" %}
+            {% assign categories = include.path | split:"/" | pop  %}
+            {% assign route="" %}
 
-        {% include breadcrumbs_li.html fa="fa-home" url="/" title="Home" position="1" %}
-        {% comment %} handle special books collections {% endcomment %}
+            {% include breadcrumbs_li.html fa="fa-home" url="/" title="Home" position="1" %}
+            {% comment %} handle special books collections {% endcomment %}
 
-        <!-- {% assign first_category = categories | first %} -->
+            <!-- {% assign first_category = categories | first %} -->
 
-        {% comment %}Detect book index{% endcomment %}
-        <!-- {% if include.path == "books.md" %}
+            {% comment %}Detect book index{% endcomment %}
+            <!-- {% if include.path == "books.md" %}
         {% include breadcrumbs_li.html fa="fa-book" title="Books" position="2" %}
         {% comment %}detect book item{% endcomment %}
         {% elsif first_category == "_books" %}
@@ -76,30 +117,30 @@
         {% include breadcrumbs_li.html title=include.title position="2" %}
         {% else %} -->
 
-        {% for cat in page.categories %}
-        <!-- / -->
-        <li class="breadcrumb-item " itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">        
-            <a href="{{ site.url }}/categories/#{{ cat }}" itemprop="item" title="{{ cat }}">
-                <span itemprop="name">{{ cat }}</span>
-            </a>        
-            <meta itemprop="position" content="2">
-        </li>
-        {% endfor %}
+            {% for cat in page.categories %}
+            <!-- / -->
+            <li class="breadcrumb-item " itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                <a href="{{ site.url }}/categories/#{{ cat }}" itemprop="item" title="{{ cat }}">
+                    <span itemprop="name">{{ cat }}</span>
+                </a>
+                <meta itemprop="position" content="2">
+            </li>
+            {% endfor %}
 
-        {% for category in categories %}
-        {% assign route = route | append: '/' | append: category %}
-        {% assign category_position=forloop.index | plus:'1' %}
+            {% for category in categories %}
+            {% assign route = route | append: '/' | append: category %}
+            {% assign category_position=forloop.index | plus:'1' %}
 
-        {% if forloop.last and category == "_posts" %}
-        {% include breadcrumbs_li.html title=include.title position=category_position %}
-        {% elsif forloop.last %}
-        {% include breadcrumbs_li.html title=category position=category_position %}
-        {% else %}
-        {% include breadcrumbs_li.html url=route title=category position=category_position %}
-        {% endif %}
+            {% if forloop.last and category == "_posts" %}
+            {% include breadcrumbs_li.html title=include.title position=category_position %}
+            {% elsif forloop.last %}
+            {% include breadcrumbs_li.html title=category position=category_position %}
+            {% else %}
+            {% include breadcrumbs_li.html url=route title=category position=category_position %}
+            {% endif %}
 
-        {% endfor %}
-        <!-- {% endif %} -->
-    </ol>
-</div>
+            {% endfor %}
+            <!-- {% endif %} -->
+        </ol>
+    </div>
 </nav>
