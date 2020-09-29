@@ -17,6 +17,8 @@ cdn:
     jsdelivr:
         enabled: true
 
+theme: "minimal-mistakes-jekyll"
+
 # 组件配置
 components:
     # 分享
