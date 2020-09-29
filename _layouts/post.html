@@ -2,7 +2,12 @@
 layout: default
 ---
 
-{% include breadcrumbs.html path=page.path title=page.title %}
+<div class="columns">
+  <div class="column three-fourths">
+    {% include breadcrumbs.html path=page.path title=page.title %}
+  </div>
+</div>
+  
 {% assign assets_base_url = site.url %}
 {% if site.cdn.jsdelivr.enabled %}
 {% assign assets_base_url = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: '@master' %}
