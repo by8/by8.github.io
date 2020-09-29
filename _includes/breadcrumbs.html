@@ -1,12 +1,34 @@
-<div id="breadcrumbs">
-    {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-    <a href="/">Home</a>
-    {% for crumb in crumbs offset: 1 %}
-    {% if forloop.last %}
-    / {{ page.title }}
-    {% else %}
-    / <a
-        href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
-    {% endif %}
-    {% endfor %}
+<div class="breadcrumbs">
+    <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="list-/inline breadcrumb">
+
+        {% assign categories = include.path | split:"/" | pop  %}
+        {% assign route="" %}
+
+        {% include breadcrumbs_li.html fa="fa-home" url="/" title="Home" position="1" %}
+        {% comment %} handle special books collections {% endcomment %}
+        {% assign first_category = categories | first %}
+
+        {% comment %}Detect book index{% endcomment %}
+        {% if include.path == "books.md" %}
+        {% include breadcrumbs_li.html fa="fa-book" title="Books" position="2" %}
+        {% comment %}detect book item{% endcomment %}
+        {% elsif first_category == "_books" %}
+        {% include breadcrumbs_li.html fa="fa-book" url="/books" title="Books" position="2" %}
+        {% include breadcrumbs_li.html title=include.title position="2" %}
+        {% else %}
+        {% for category in categories %}
+        {% assign route = route | append: '/' | append: category %}
+        {% assign category_position=forloop.index | plus:'1' %}
+
+        {% if forloop.last and category == "_posts" %}
+        {% include breadcrumbs_li.html title=include.title position=category_position %}
+        {% elsif forloop.last %}
+        {% include breadcrumbs_li.html title=category position=category_position %}
+        {% else %}
+        {% include breadcrumbs_li.html url=route title=category position=category_position %}
+        {% endif %}
+
+        {% endfor %}
+        {% endif %}
+    </ol>
 </div>
