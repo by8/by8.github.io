@@ -58,11 +58,9 @@
         border-radius: .25rem;
     }
 
-    ol,
-    ul,
-    dl {
+    ol, ul, dl {
         margin-top: 0;
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
     }
 
     *,
@@ -104,20 +102,8 @@
             {% assign categories = include.path | split:"/" | pop  %}
             {% assign route="" %}
 
-            当前位置:
+            当前位置:&nbsp;
             {% include breadcrumbs_li.html fa="fa-home" url="/" title="Home" position="1" %}
-            {% comment %} handle special books collections {% endcomment %}
-
-            <!-- {% assign first_category = categories | first %} -->
-
-            {% comment %}Detect book index{% endcomment %}
-            <!-- {% if include.path == "books.md" %}
-        {% include breadcrumbs_li.html fa="fa-book" title="Books" position="2" %}
-        {% comment %}detect book item{% endcomment %}
-        {% elsif first_category == "_books" %}
-        {% include breadcrumbs_li.html fa="fa-book" url="/books" title="Books" position="2" %}
-        {% include breadcrumbs_li.html title=include.title position="2" %}
-        {% else %} -->
 
             {% for cat in page.categories %}
             <!-- / -->
