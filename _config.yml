@@ -162,3 +162,5 @@ exclude:
 #         sidebar: true 
 #         content_header: true
 #         content_footer: false
+
+breadcrumbs: true
