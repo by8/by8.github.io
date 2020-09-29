@@ -1,20 +1,12 @@
-{% assign categories = include.path | split:"/" %}
-{% assign filename_without_extension = categories | last | split:"." | first %}
-{% if categories contains "_posts" or filename_without_extension == "index" %}
-{% comment %} posts are like /docs/python/_posts/2016-06-06-foobar.md {% endcomment %}
-{% comment %} OR pages are index.* i.e.: like /docs/python/index.md or index.html {% endcomment %}
-{% assign categories = categories | pop %}
-{% endif %}
-
-{% assign route="" %}
-
-<a href="{{ '/' | absolute_url }}">Home</a>
-{% for category in categories %}
-<span class="prompt">>></span>
-{% assign route = route | append: '/' | append: category %}
-{% if forloop.last %}
-{% if include.title %}{{include.title}}{% else %}{{ category }}{% endif %}
-{% else %}
-<a href="{{ route | absolute_url }}">{{ category }}</a>
-{% endif %}
-{% endfor %}
+<div id="breadcrumbs">
+    {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+    <a href="/">Home</a>
+    {% for crumb in crumbs offset: 1 %}
+    {% if forloop.last %}
+    / {{ page.title }}
+    {% else %}
+    / <a
+        href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
+    {% endif %}
+    {% endfor %}
+</div>
