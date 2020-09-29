@@ -72,10 +72,13 @@
         {% else %} -->
 
         {% for cat in page.categories %}
-        /
-        <span class="meta-info">
-            <a href="{{ site.url }}/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>
-        </span>
+        <!-- / -->
+        <li class="breadcrumb-item " itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">        
+            <a href="{{ site.url }}/categories/#{{ cat }}" itemprop="item" title="{{ cat }}">
+                <span itemprop="name">{{ cat }}</span>
+            </a>        
+            <meta itemprop="position" content="2">
+        </li>
         {% endfor %}
 
         {% for category in categories %}
