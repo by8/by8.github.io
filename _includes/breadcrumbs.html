@@ -108,6 +108,7 @@
             </li>
             {% endfor %}
 
+            <!-- Add post title in the end postion of breadcrumbs -->
             {% for category in categories %}
             {% assign route = route | append: '/' | append: category %}
             {% assign category_position=forloop.index | plus:'1' %}
