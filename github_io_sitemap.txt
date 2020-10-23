@@ -1,0 +1,11 @@
+---
+layout: null
+---
+{% for post in site.posts %}
+{{ site.url | replace: "blog.geekzl.com", "by8.github.io" }}{{ post.url }}
+{% endfor %}
+{% for page in site.pages %}
+{% unless page.url contains '/20' %}
+{{ site.url | replace: "blog.geekzl.com", "by8.github.io" }}{{ page.url | remove: "index.html" }}
+{% endunless %}
+{% endfor %}
