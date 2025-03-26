@@ -2,7 +2,7 @@
 layout: post
 redirect_from:
   - /2025/03/26/cpp-leetcode1-two-sum/
-title: template page
+title: C++版 - Leetcode No.1 - Two sum题解
 categories: [leetcode, 编程训练]
 description: C++版 - Leetcode No.1 - Two sum题解
 keywords: leetcode, 编程训练
