@@ -6,6 +6,7 @@ title: template page
 categories: [leetcode, 编程训练]
 description: C++版 - Leetcode No.1 - Two sum题解
 keywords: leetcode, 编程训练
+topmost: true
 ---
 
 # C++版 - Leetcode No.1 - Two sum题解
