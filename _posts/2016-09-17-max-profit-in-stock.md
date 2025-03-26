@@ -7,7 +7,11 @@ tags: [oj]
 categories: 编程训练
 ---
 
- ![携程校招2017编程题1](//cdn.jsdelivr.net/gh/yanglr/yanglr.github.io/assets/images/ctrip_ex1.png)  <!-- 本地: ![携程校招2017编程题1](../images/ctrip_ex1.png) -->
+
+
+![image.png](https://b.bdstatic.com/comment/btVm9ENZ4h2RcfZN9yiixw3af869a50c828e59a8ead86be052a711.png)
+
+
 
 ### 题目: 股票利润
 
